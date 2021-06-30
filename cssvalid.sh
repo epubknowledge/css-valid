@@ -8,7 +8,7 @@
 
 ## set variables ##
 FOLDER="css_valid"
-LOCATION="/Users/$USE"
+LOCATION="/Users/$USER"
 TIMESTAMP=$(date '+%d/%m/%Y %H:%M:%S')
 
 echo $TIMESTAMP
