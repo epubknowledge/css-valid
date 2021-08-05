@@ -4,14 +4,13 @@ const absPath = require('./absPath')
 
 module.exports = i => {
   let obj = {}
-  let fileArray = []
-  const split = i.split(',')
-  obj.dir = path.dirname(absPath(split[0]))
-  if (split.length > 1) {
-    split.map(file => fileArray.push(file.trim()))
+  let cssArray = []
+  if (Array.isArray(i) === true) {
+    cssArray = i
   } else {
-    fileArray = [split[0].trim()]
+    cssArray = i.split(',')
   }
-  obj.files = fileArray
+  obj.dir = path.dirname(absPath(cssArray[0]))
+  obj.files = cssArray
   return obj
 }
