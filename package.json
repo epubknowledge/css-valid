@@ -1,0 +1,55 @@
+{
+  "name": "css-valid",
+  "introName": "css valid",
+  "version": "1.0.0",
+  "description": "validates a CSS file with W3C css jar",
+  "main": "bin/index.js",
+  "bin": {
+    "cssvalid": "bin/index.js",
+    "cssValid": "bin/index.js",
+    "cssvalidcli": "bin/cli.js",
+    "cvcli": "bin/cli.js"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=14.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "!win32"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epubknowledge/css-valid.git"
+  },
+  "keywords": [
+    "css",
+    "cli"
+  ],
+  "author": "codingChewie",
+  "bugs": {
+    "url": "https://github.com/epubknowledge/css-valid/issues"
+  },
+  "homepage": "https://github.com/epubknowledge/css-valid#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^8.1.0",
+    "figlet": "^1.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
