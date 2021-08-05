@@ -8,9 +8,9 @@ module.exports = i => {
   const split = i.split(',')
   obj.dir = path.dirname(absPath(split[0]))
   if (split.length > 1) {
-    split.map(file => fileArray.push(`${obj.dir}/${file}`))
+    split.map(file => fileArray.push(file.trim()))
   } else {
-    fileArray = [`${obj.dir}/${split[0]}`]
+    fileArray = [split[0].trim()]
   }
   obj.files = fileArray
   return obj
