@@ -36,7 +36,8 @@
   },
   "keywords": [
     "css",
-    "cli"
+    "cli",
+    "epub"
   ],
   "author": "codingChewie",
   "bugs": {
@@ -47,7 +48,8 @@
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "commander": "^8.1.0",
-    "figlet": "^1.5.0"
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0"
   },
   "devDependencies": {
     "prettier": "^2.3.2"
