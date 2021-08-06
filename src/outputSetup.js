@@ -6,6 +6,7 @@ const absPath = require('./absPath')
 
 module.exports = obj => {
   let outObj = {}
+  if (obj.output === false && obj.cli === false) return obj
   if (obj.output === false) {
     outObj.dir = obj.input.dir
   } else {
