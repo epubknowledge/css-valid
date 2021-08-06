@@ -20,9 +20,6 @@ module.exports = async obj => {
       )
     })
   })
-  // const cssFiles = await Promise.all(cssPromises)
-  // console.log(cssFiles)
   obj.input.files = await Promise.all(cssPromises)
-
   return obj
 }
