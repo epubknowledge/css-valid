@@ -3,7 +3,7 @@
 This NPM package comes in two flavors:
 
 - 1. As a CLI for development
-- 2. As a NPM package that can brought in
+- 2. As a NPM package that can brought in and response is in JSON.
 
 Currently this takes five arguments to work:
 
@@ -29,8 +29,12 @@ yarn add @epubknowledge/css-valid
 
 ## CLI
 
-If using this as a CLI refer to the [CLI Documentation](./cli.md)
+If using this as a CLI refer to the [CLI Documentation](./cli.md).
 
 ## Package
 
-If using this as a package the refer to the [Package Documentation](./package.md)
+If using this as a package the refer to the [Package Documentation](./package.md).
+
+## Bash
+
+This originated from a bash script I wrote many eons ago but you can reference it [here](./bash/cssvalid.sh).
