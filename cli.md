@@ -1,6 +1,6 @@
 # CLI Documentation
 
-If the CLI is used the results will be written to an XML file specified by what exists in `output` if there is an error or warning. If no error or warning is found then the terminal will return:
+If the CLI is used the results will be written to an XML file specified by what exists in `output` if there is an error or warning. If no error or warning are found then the terminal will return:
 
 ```bash
 File: filename.css Errors: 0 Warnings: 0
@@ -10,7 +10,7 @@ Completed
 
 ## Commands
 
-CLI can be used by calling either:
+The CLI can be used by calling either:
 
 ```bash
 cssvalidcli
@@ -38,7 +38,7 @@ Basic usage:
 cvcli
 ```
 
-## Input
+### Input
 
 Input accepts a directory parameter to read. If no file is found in the terminal scope a `Completed` will be echoed in the terminal.
 
@@ -46,13 +46,13 @@ Input accepts a directory parameter to read. If no file is found in the terminal
 cvcli -i css
 ```
 
-If the scope is invalid the terminal will echo:
+If the scope is invalid or directory doesn't exist the terminal will echo:
 
 ```bash
 Error: Not a valid directory
 ```
 
-## Output
+### Output
 
 Output is if the XML files should be written to a different location.
 
@@ -69,7 +69,7 @@ There are two shortcuts:
 cvcli -o desktop
 ```
 
-## File
+### File
 
 If wanting to only pass in a file instead of reading an entire directory use `f` flag:
 
@@ -79,7 +79,7 @@ cvcli -i test -f idGeneratedStyles.css
 
 Command reads into a directory named `test` for a file named `idGeneratedStyles.css`.
 
-## Exclusion
+### Exclusion
 
 If a workflow CSS is to be included and a test isn't needed then use `-e` flag:
 
@@ -89,7 +89,7 @@ cvcli -i test -e epub3.css
 
 Command reads into a directory named `test` but excludes a file named `epub3.css`.
 
-## CLI
+### CLI
 
 Since W3C's jar by default outputs to an XML file the CLI will write and errors or warnings to an XML file by the filename, example.
 
