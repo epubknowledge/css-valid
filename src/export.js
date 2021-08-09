@@ -14,8 +14,9 @@ module.exports = obj => {
       erCount,
       chalk.white('Warnings:'),
       waCount,
+      `\n`,
     )
     if (passed !== true) fs.outputFileSync(`${obj.output.dir}/${item.file}.xml`, item.data)
   })
-  console.log(chalk.green('\nCompleted'))
+  console.log(chalk.green('Completed'))
 }
