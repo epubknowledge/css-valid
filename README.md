@@ -38,3 +38,8 @@ If using this as a package the refer to the [Package Documentation](./package.md
 ## Bash
 
 This originated from a bash script I wrote many eons ago but you can reference it [here](./bash/cssvalid.sh).
+
+## Future Plans
+
+- [] Add testing
+- [] finish package
