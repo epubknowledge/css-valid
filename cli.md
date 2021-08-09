@@ -1,8 +1,6 @@
 # CLI Documentation
 
-If the CLI is used the results will be written to an XML file specified by what exists in `output` if there is an error or warning.
-
-If no error or warning is found then the terminal will return:
+If the CLI is used the results will be written to an XML file specified by what exists in `output` if there is an error or warning. If no error or warning is found then the terminal will return:
 
 ```bash
 File: filename.css Errors: 0 Warnings: 0
