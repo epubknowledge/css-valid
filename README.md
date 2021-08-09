@@ -2,8 +2,8 @@
 
 This NPM package comes in two flavors:
 
-- 1. As a CLI for development
-- 2. As a NPM package that can brought in and response is in JSON.
+1. As a CLI for development
+2. As a NPM package that can brought in and response is in JSON.
 
 Currently this takes five arguments to work:
 
