@@ -1,1 +1,36 @@
 # CSS Valid
+
+This NPM package comes in two flavors:
+
+- 1. As a CLI for development
+- 2. As a NPM package that can brought in
+
+Currently this takes five arguments to work:
+
+- **input**: the directory being read into the package
+- **output**: where the XML output file is to be written to
+- **file**: if not reading a directory then reading a file
+- **exclusion**: exclude a file if reading a directory
+- **cli**: wether or not this is called as a CLI
+
+## Installation
+
+NPM:
+
+```bash
+npm i @epubknowledge/css-valid
+```
+
+yarn:
+
+```bash
+yarn add @epubknowledge/css-valid
+```
+
+## CLI
+
+If using this as a CLI refer to the [CLI Documentation](./cli.md)
+
+## Package
+
+If using this as a package the refer to the [Package Documentation](./package.md)
