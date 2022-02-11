@@ -1,5 +1,11 @@
 # CLI Documentation
 
+First install the package:
+
+```
+cd css-valid && npm i && npm link
+```
+
 If the CLI is used the results will be written to an XML file specified by what exists in `output` if there is an error or warning. If no error or warning are found then the terminal will return:
 
 ```bash
@@ -20,6 +26,12 @@ or
 
 ```bash
 cvcli
+```
+
+Quick example run on a title's CSS directory with an exclusion:
+
+```
+vcli -i '/Users/codingChewie/title/OEBPS/css' -e epub3.css
 ```
 
 ## Help
