@@ -1,8 +1,8 @@
 {
   "name": "css-valid",
   "introName": "CSS Valid",
-  "version": "1.0.0",
-  "description": "validates a CSS file with W3C CSS jar",
+  "version": "0.0.2",
+  "description": "validates a CSS file with W3C's CSS jar",
   "main": "bin/index.js",
   "bin": {
     "cssvalid": "bin/index.js",
@@ -11,7 +11,7 @@
     "cvcli": "bin/cli.js"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "files": [
     "bin/",
