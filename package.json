@@ -1,8 +1,8 @@
 {
   "name": "css-valid",
-  "introName": "css valid",
+  "introName": "CSS Valid",
   "version": "1.0.0",
-  "description": "validates a CSS file with W3C css jar",
+  "description": "validates a CSS file with W3C CSS jar",
   "main": "bin/index.js",
   "bin": {
     "cssvalid": "bin/index.js",
@@ -40,6 +40,7 @@
     "epub"
   ],
   "author": "codingChewie",
+  "license": "see license in LICENSE",
   "bugs": {
     "url": "https://github.com/epubknowledge/css-valid/issues"
   },
