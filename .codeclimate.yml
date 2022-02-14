@@ -1,0 +1,5 @@
+exclude_paths:
+  - '**/src/css-jar'
+  - '**/src/format.js'
+  - '**/src/export.js'
+  - '**/src/outputSetup.js'
